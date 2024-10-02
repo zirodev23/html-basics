@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML pamati</title>
+    <style>
+      p {
+        color: red;
+      }
+
+      img {
+      }
+    </style>
+  </head>
+  <body>
+    <!-- UZDEVUMS: uzģenerēt navigācijas sadaļu -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="blog.html">Relative link to blog</a></li>
+          <li><a href="/blog.html">Absolute link to blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- var būt tikai viens main elements lapā -->
+    <main>
+      <section>
+        <!-- grupē radniecīgus elementus -->
+        <p>qweqwe</p>
+        <p>asdasd</p>
+        <p>zxczxc</p>
+      </section>
+      <em>Emphasize</em>
+      <!-- semantisks elements -->
+      <!-- <i></i> depricated -->
+      <p>klakjsda <strong>strong text</strong> laasdasd</p>
+      <!-- <b>klasjdkasd</b> depricated -->
+
+      <!-- lorem20 -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quod
+        totam nisi modi aliquid molestias error quos voluptates pariatur sequi.
+      </p>
+
+      <!-- ul>li*3 ==> Zen coding -->
+      <ul>
+        <li>qweqweq</li>
+        <li>kjhjkh</li>
+        <li>kjhjkhj</li>
+      </ul>
+
+      <!-- ol>li*5[class="some_class"] -->
+      <ol>
+        <li class="some_class">qqqq</li>
+        <li class="some_class">www</li>
+        <li class="some_class">rrr</li>
+        <li class="some_class">yyy</li>
+        <li class="some_class">uuuu</li>
+      </ol>
+
+      <!-- uzdevums izpētīt dl elementu
+    kopā ar dt un dd -->
+
+      <form action="http://localhost:8002/about.php" method="post">
+        <label for="first_name">Name:</label>
+        <input type="text" id="first_name" name="first_name" />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="content">Content:</label>
+        <textarea name="content" id="content"></textarea>
+
+        <input type="submit" value="Save" />
+      </form>
+
+      <!-- UZDEVUMS: ievietot attēlu un uztaisīt apaļus stūrus -->
+      <!-- unsplash.com -->
+
+      <!-- UZDEVUMS: ievietot video ar HTML -->
+      <!-- https://www.pexels.com/videos/ -->
+    </main>
+
+    <!-- html entities / speciālie simboli un to kodi -->
+    <footer>&copy; Protected by noone</footer>
+  </body>
+</html>
